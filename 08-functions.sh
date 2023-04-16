@@ -6,3 +6,5 @@ sample() {
 }
 
 sample
+sample
+sample
