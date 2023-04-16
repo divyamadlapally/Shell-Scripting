@@ -13,3 +13,5 @@ stst() {
     echo " Load average of the system in last 1 minute: ${uptime | awk -F : '{PRINT $NF}' | awk -F , '{PRINT $1}'} "
 
 }
+echo "calling stat function"
+stat
